@@ -1,3 +1,4 @@
+@@ -1,74 +0,0 @@
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -72,3 +73,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore Developer folder
+Content/Developers/*
+Plugins/Developer/RiderLink
