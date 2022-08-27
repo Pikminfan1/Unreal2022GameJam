@@ -93,6 +93,74 @@
       ]
      },
      {
+      "Id": "2975023323",
+      "Name": "Play_FootstepsSwitch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FootstepsSwitch",
+      "GUID": "{CA2EBF05-55CB-427C-9566-6A9590ACC40C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.121869",
+      "DurationMax": "0.453907",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "670727069",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 4.wav",
+        "Path": "SFX\\Stone footstep 4_10C4C929.wem"
+       },
+       {
+        "Id": "699293783",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 2.wav",
+        "Path": "SFX\\Stone footstep 2_10C4C929.wem"
+       },
+       {
+        "Id": "710010194",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 1.wav",
+        "Path": "SFX\\Stone footstep 1_10C4C929.wem"
+       },
+       {
+        "Id": "911543907",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Button Press.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem"
+       },
+       {
+        "Id": "959243476",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 3.wav",
+        "Path": "SFX\\Stone footstep 3_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{2D86DA58-869F-4013-AF7A-0AB2B5D7DF4A}",
+        "Media": [
+         {
+          "Id": "911543907"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}",
+        "Media": [
+         {
+          "Id": "670727069"
+         },
+         {
+          "Id": "699293783"
+         },
+         {
+          "Id": "710010194"
+         },
+         {
+          "Id": "959243476"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "964566375",
       "Name": "Play_Pick_Up",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Pick_Up",
@@ -126,13 +194,35 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2471043387",
+      "Name": "FootstepsSurface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSurface",
+      "GUID": "{B1EC36C4-37F7-490F-94F5-5CFAD66021D1}",
+      "Switches": [
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSurface\\Default",
+        "GUID": "{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}"
+       },
+       {
+        "Id": "344481046",
+        "Name": "Ice",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSurface\\Ice",
+        "GUID": "{2D86DA58-869F-4013-AF7A-0AB2B5D7DF4A}"
+       }
+      ]
+     }
     ]
    },
    {
     "Id": "1327972334",
     "GUID": "{4F273FEE-3FEE-1FEE-EEEE-EEEEEEEEEEEE}",
     "Language": "SFX",
-    "Hash": "809245501",
+    "Hash": "1225040069",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSounds",
     "ShortName": "PlayerSounds",
     "Path": "PlayerSounds.bnk",
@@ -207,6 +297,74 @@
       ]
      },
      {
+      "Id": "2975023323",
+      "Name": "Play_FootstepsSwitch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FootstepsSwitch",
+      "GUID": "{CA2EBF05-55CB-427C-9566-6A9590ACC40C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.121869",
+      "DurationMax": "0.453907",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "670727069",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 4.wav",
+        "Path": "SFX\\Stone footstep 4_10C4C929.wem"
+       },
+       {
+        "Id": "699293783",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 2.wav",
+        "Path": "SFX\\Stone footstep 2_10C4C929.wem"
+       },
+       {
+        "Id": "710010194",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 1.wav",
+        "Path": "SFX\\Stone footstep 1_10C4C929.wem"
+       },
+       {
+        "Id": "911543907",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Button Press.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem"
+       },
+       {
+        "Id": "959243476",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 3.wav",
+        "Path": "SFX\\Stone footstep 3_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{2D86DA58-869F-4013-AF7A-0AB2B5D7DF4A}",
+        "Media": [
+         {
+          "Id": "911543907"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}",
+        "Media": [
+         {
+          "Id": "670727069"
+         },
+         {
+          "Id": "699293783"
+         },
+         {
+          "Id": "710010194"
+         },
+         {
+          "Id": "959243476"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "964566375",
       "Name": "Play_Pick_Up",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Pick_Up",
@@ -237,6 +395,28 @@
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Switch Dimentions.wav",
         "Path": "SFX\\SoundEffectsEpicGJ2022_Switch Dimentions_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2471043387",
+      "Name": "FootstepsSurface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSurface",
+      "GUID": "{B1EC36C4-37F7-490F-94F5-5CFAD66021D1}",
+      "Switches": [
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSurface\\Default",
+        "GUID": "{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}"
+       },
+       {
+        "Id": "344481046",
+        "Name": "Ice",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSurface\\Ice",
+        "GUID": "{2D86DA58-869F-4013-AF7A-0AB2B5D7DF4A}"
        }
       ]
      }
