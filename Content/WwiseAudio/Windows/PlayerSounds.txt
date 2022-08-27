@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	964566375	Play_Pick_Up			\Default Work Unit\Play_Pick_Up	
+	1907633766	Play_Button_Press			\Default Work Unit\Play_Button_Press	
+	2690827682	Play_Footprints			\Default Work Unit\Play_Footprints	
+	2695750376	Play_Double_Jump			\Default Work Unit\Play_Double_Jump	
+	3139357677	Play_Switch_Dimentions			\Default Work Unit\Play_Switch_Dimentions	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	282601132	Switch Dimentions	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Switch Dimentions_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch Dimentions		80980
+	666903468	Pick Up	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Pick Up_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pick Up		80980
+	670727069	Stone footstep 4	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footprints\Stone footstep 4		28760
+	699293783	Stone footstep 2	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footprints\Stone footstep 2		55104
+	710010194	Stone footstep 1	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footprints\Stone footstep 1		44752
+	857310882	Double Jump	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Double Jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Double Jump		80980
+	911543907	Button Press	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Button Press_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press		80980
+	959243476	Stone footstep 3	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footprints\Stone footstep 3		30172
+

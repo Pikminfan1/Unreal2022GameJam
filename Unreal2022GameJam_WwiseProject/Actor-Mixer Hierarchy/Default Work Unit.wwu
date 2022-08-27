@@ -4,6 +4,43 @@
 		<WorkUnit Name="Default Work Unit" ID="{4897ED52-D165-41D1-9679-64C88BE90506}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Footprints" ID="{07602BE8-9BC4-4622-8D01-5B4DD14B75F3}" ShortID="203540853">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5DD6BA32-A58C-4B69-A500-05063B717AA7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="5"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{62D78190-1F4A-460D-9A7A-1780D6ACE950}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-250"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
@@ -12,8 +49,194 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Stone footstep 1" ID="{A9804258-0616-47DF-9F13-6C2847A9F912}" ShortID="763545993">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stone footstep 1" ID="{735E8848-03DB-4A11-B859-826FA0151AFC}">
+									<Language>SFX</Language>
+									<AudioFile>Stone footstep 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="710010194"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Stone footstep 1" ID="{735E8848-03DB-4A11-B859-826FA0151AFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Stone footstep 2" ID="{B10A67AC-CADB-4A7C-AD9C-849B2B578189}" ShortID="571255906">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stone footstep 2" ID="{BC55EFEA-26D5-4FA7-BFD8-7859C1FB5325}">
+									<Language>SFX</Language>
+									<AudioFile>Stone footstep 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="699293783"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Stone footstep 2" ID="{BC55EFEA-26D5-4FA7-BFD8-7859C1FB5325}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Stone footstep 3" ID="{54951F06-5DC6-48C7-8602-9DE3059153AE}" ShortID="1011310335">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stone footstep 3" ID="{4CA9F9E8-AB21-4721-8CA4-BD9A5A5D9AAE}">
+									<Language>SFX</Language>
+									<AudioFile>Stone footstep 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="959243476"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Stone footstep 3" ID="{4CA9F9E8-AB21-4721-8CA4-BD9A5A5D9AAE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Stone footstep 4" ID="{5AFDA384-2C61-48A1-95A4-3FC906D9853C}" ShortID="535891586">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stone footstep 4" ID="{1992CD8E-7A9A-48B0-956A-3ABE8179AFE4}">
+									<Language>SFX</Language>
+									<AudioFile>Stone footstep 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="670727069"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Stone footstep 4" ID="{1992CD8E-7A9A-48B0-956A-3ABE8179AFE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
+				<Sound Name="Button Press" ID="{45B25074-EB16-4E66-A3E1-E8C7E8C7C413}" ShortID="354171340">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SoundEffectsEpicGJ2022_Button Press" ID="{79D22DDC-A204-4569-A5F5-77C2012EC891}">
+							<Language>SFX</Language>
+							<AudioFile>SoundEffectsEpicGJ2022_Button Press.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="911543907"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundEffectsEpicGJ2022_Button Press" ID="{79D22DDC-A204-4569-A5F5-77C2012EC891}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Double Jump" ID="{829E8095-ADF6-4CF2-8AE8-07886BD1E063}" ShortID="638877360">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SoundEffectsEpicGJ2022_Double Jump" ID="{B5406614-FC66-4031-AC3B-A007419F56DD}">
+							<Language>SFX</Language>
+							<AudioFile>SoundEffectsEpicGJ2022_Double Jump.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="857310882"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundEffectsEpicGJ2022_Double Jump" ID="{B5406614-FC66-4031-AC3B-A007419F56DD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pick Up" ID="{E5AC963A-F5ED-414A-8876-0283E06C3778}" ShortID="649135375">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SoundEffectsEpicGJ2022_Pick Up" ID="{D6DC163C-BFB7-4874-AD66-8AB8E85B3138}">
+							<Language>SFX</Language>
+							<AudioFile>SoundEffectsEpicGJ2022_Pick Up.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="666903468"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundEffectsEpicGJ2022_Pick Up" ID="{D6DC163C-BFB7-4874-AD66-8AB8E85B3138}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Switch Dimentions" ID="{395E8B52-BD3E-4C23-929E-B3907EEF808D}" ShortID="1028421167">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SoundEffectsEpicGJ2022_Switch Dimentions" ID="{49A6C64D-A291-45F1-8437-55B7596F9AE3}">
+							<Language>SFX</Language>
+							<AudioFile>SoundEffectsEpicGJ2022_Switch Dimentions.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="282601132"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundEffectsEpicGJ2022_Switch Dimentions" ID="{49A6C64D-A291-45F1-8437-55B7596F9AE3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

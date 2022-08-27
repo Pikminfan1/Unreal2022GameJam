@@ -1,0 +1,256 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Projects\\Unreal2022\\Unreal2022GameJam\\Unreal2022GameJam_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Projects\\Unreal2022\\Unreal2022GameJam\\Unreal2022GameJam_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Projects\\Unreal2022\\Unreal2022GameJam\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Projects\\Unreal2022\\Unreal2022GameJam\\Unreal2022GameJam_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "577248597",
+    "GUID": "{8B3F313E-6420-4FB8-8AD4-ED726F354AF0}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSoundbank",
+    "ShortName": "PlayerSoundbank",
+    "Path": "PlayerSoundbank.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1907633766",
+      "Name": "Play_Button_Press",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Press",
+      "GUID": "{B7E36B75-9012-46B3-B2F6-416C7D222AEE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "911543907",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Button Press.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2695750376",
+      "Name": "Play_Double_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Double_Jump",
+      "GUID": "{FADC62DD-2328-42BB-88EA-C0310DF8364A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "857310882",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Double Jump.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Double Jump_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2690827682",
+      "Name": "Play_Footprints",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footprints",
+      "GUID": "{084D2C43-7546-42FF-9B4C-FDCCE8A2D387}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.121869",
+      "DurationMax": "0.360491",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "670727069",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 4.wav",
+        "Path": "SFX\\Stone footstep 4_10C4C929.wem"
+       },
+       {
+        "Id": "699293783",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 2.wav",
+        "Path": "SFX\\Stone footstep 2_10C4C929.wem"
+       },
+       {
+        "Id": "710010194",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 1.wav",
+        "Path": "SFX\\Stone footstep 1_10C4C929.wem"
+       },
+       {
+        "Id": "959243476",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 3.wav",
+        "Path": "SFX\\Stone footstep 3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "964566375",
+      "Name": "Play_Pick_Up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pick_Up",
+      "GUID": "{DBA001EB-DB7A-4607-96A9-3D8F768122C0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "666903468",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Pick Up.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Pick Up_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3139357677",
+      "Name": "Play_Switch_Dimentions",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Switch_Dimentions",
+      "GUID": "{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "282601132",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Switch Dimentions.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Switch Dimentions_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1327972334",
+    "GUID": "{4F273FEE-3FEE-1FEE-EEEE-EEEEEEEEEEEE}",
+    "Language": "SFX",
+    "Hash": "3939216564",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSounds",
+    "ShortName": "PlayerSounds",
+    "Path": "PlayerSounds.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1907633766",
+      "Name": "Play_Button_Press",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Press",
+      "GUID": "{B7E36B75-9012-46B3-B2F6-416C7D222AEE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "911543907",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Button Press.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2695750376",
+      "Name": "Play_Double_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Double_Jump",
+      "GUID": "{FADC62DD-2328-42BB-88EA-C0310DF8364A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "857310882",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Double Jump.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Double Jump_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2690827682",
+      "Name": "Play_Footprints",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footprints",
+      "GUID": "{084D2C43-7546-42FF-9B4C-FDCCE8A2D387}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.121869",
+      "DurationMax": "0.360491",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "670727069",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 4.wav",
+        "Path": "SFX\\Stone footstep 4_10C4C929.wem"
+       },
+       {
+        "Id": "699293783",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 2.wav",
+        "Path": "SFX\\Stone footstep 2_10C4C929.wem"
+       },
+       {
+        "Id": "710010194",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 1.wav",
+        "Path": "SFX\\Stone footstep 1_10C4C929.wem"
+       },
+       {
+        "Id": "959243476",
+        "Language": "SFX",
+        "ShortName": "Stone footstep 3.wav",
+        "Path": "SFX\\Stone footstep 3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "964566375",
+      "Name": "Play_Pick_Up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pick_Up",
+      "GUID": "{DBA001EB-DB7A-4607-96A9-3D8F768122C0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "666903468",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Pick Up.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Pick Up_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3139357677",
+      "Name": "Play_Switch_Dimentions",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Switch_Dimentions",
+      "GUID": "{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421438",
+      "DurationMax": "0.421438",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "282601132",
+        "Language": "SFX",
+        "ShortName": "SoundEffectsEpicGJ2022_Switch Dimentions.wav",
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Switch Dimentions_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "3690994985",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footprints" ID="{084D2C43-7546-42FF-9B4C-FDCCE8A2D387}">
+					<ChildrenList>
+						<Action Name="" ID="{850E9259-F871-4774-8FB9-8304B84F12ED}" ShortID="551256285">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footprints" ID="{07602BE8-9BC4-4622-8D01-5B4DD14B75F3}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Button_Press" ID="{B7E36B75-9012-46B3-B2F6-416C7D222AEE}">
+					<ChildrenList>
+						<Action Name="" ID="{84E55AF2-A356-4DDE-881C-7F7E7537B8B6}" ShortID="387756059">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button Press" ID="{45B25074-EB16-4E66-A3E1-E8C7E8C7C413}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Double_Jump" ID="{FADC62DD-2328-42BB-88EA-C0310DF8364A}">
+					<ChildrenList>
+						<Action Name="" ID="{86FEBC99-FFA3-47E2-AFB0-E6792321A5D3}" ShortID="724215484">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Double Jump" ID="{829E8095-ADF6-4CF2-8AE8-07886BD1E063}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pick_Up" ID="{DBA001EB-DB7A-4607-96A9-3D8F768122C0}">
+					<ChildrenList>
+						<Action Name="" ID="{2420BCEA-92EC-4158-81D4-3052FB9FDE08}" ShortID="443196500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pick Up" ID="{E5AC963A-F5ED-414A-8876-0283E06C3778}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Switch_Dimentions" ID="{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}">
+					<ChildrenList>
+						<Action Name="" ID="{0A779C93-621B-496E-B758-7F707F17575F}" ShortID="136205334">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Switch Dimentions" ID="{395E8B52-BD3E-4C23-929E-B3907EEF808D}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
