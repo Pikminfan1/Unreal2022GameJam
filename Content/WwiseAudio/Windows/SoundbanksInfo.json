@@ -29,14 +29,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Press",
       "GUID": "{B7E36B75-9012-46B3-B2F6-416C7D222AEE}",
       "DurationType": "OneShot",
-      "DurationMin": "0.421438",
-      "DurationMax": "0.421438",
+      "DurationMin": "0.453907",
+      "DurationMax": "0.453907",
       "IncludedMemoryFiles": [
        {
         "Id": "911543907",
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Button Press.wav",
-        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_10C4C929.wem"
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem"
        }
       ]
      },
@@ -98,14 +98,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Pick_Up",
       "GUID": "{DBA001EB-DB7A-4607-96A9-3D8F768122C0}",
       "DurationType": "OneShot",
-      "DurationMin": "0.421438",
-      "DurationMax": "0.421438",
+      "DurationMin": "0.158344",
+      "DurationMax": "0.158344",
       "IncludedMemoryFiles": [
        {
         "Id": "666903468",
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Pick Up.wav",
-        "Path": "SFX\\SoundEffectsEpicGJ2022_Pick Up_10C4C929.wem"
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Pick Up_EF1A3CB4.wem"
        }
       ]
      },
@@ -115,8 +115,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Switch_Dimentions",
       "GUID": "{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}",
       "DurationType": "OneShot",
-      "DurationMin": "0.421438",
-      "DurationMax": "0.421438",
+      "DurationMin": "0.397784",
+      "DurationMax": "0.446497",
       "IncludedMemoryFiles": [
        {
         "Id": "282601132",
@@ -132,7 +132,7 @@
     "Id": "1327972334",
     "GUID": "{4F273FEE-3FEE-1FEE-EEEE-EEEEEEEEEEEE}",
     "Language": "SFX",
-    "Hash": "3939216564",
+    "Hash": "809245501",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSounds",
     "ShortName": "PlayerSounds",
     "Path": "PlayerSounds.bnk",
@@ -143,14 +143,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Button_Press",
       "GUID": "{B7E36B75-9012-46B3-B2F6-416C7D222AEE}",
       "DurationType": "OneShot",
-      "DurationMin": "0.421438",
-      "DurationMax": "0.421438",
+      "DurationMin": "0.453907",
+      "DurationMax": "0.453907",
       "IncludedMemoryFiles": [
        {
         "Id": "911543907",
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Button Press.wav",
-        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_10C4C929.wem"
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem"
        }
       ]
      },
@@ -212,14 +212,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Pick_Up",
       "GUID": "{DBA001EB-DB7A-4607-96A9-3D8F768122C0}",
       "DurationType": "OneShot",
-      "DurationMin": "0.421438",
-      "DurationMax": "0.421438",
+      "DurationMin": "0.158344",
+      "DurationMax": "0.158344",
       "IncludedMemoryFiles": [
        {
         "Id": "666903468",
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Pick Up.wav",
-        "Path": "SFX\\SoundEffectsEpicGJ2022_Pick Up_10C4C929.wem"
+        "Path": "SFX\\SoundEffectsEpicGJ2022_Pick Up_EF1A3CB4.wem"
        }
       ]
      },
@@ -229,8 +229,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Switch_Dimentions",
       "GUID": "{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}",
       "DurationType": "OneShot",
-      "DurationMin": "0.421438",
-      "DurationMax": "0.421438",
+      "DurationMin": "0.397784",
+      "DurationMax": "0.446497",
       "IncludedMemoryFiles": [
        {
         "Id": "282601132",

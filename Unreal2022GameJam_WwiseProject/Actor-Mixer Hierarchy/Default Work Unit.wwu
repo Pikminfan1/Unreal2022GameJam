@@ -37,7 +37,7 @@
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-20</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -146,6 +146,23 @@
 					<ObjectLists/>
 				</RandomSequenceContainer>
 				<Sound Name="Button Press" ID="{45B25074-EB16-4E66-A3E1-E8C7E8C7C413}" ShortID="354171340">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>32</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
@@ -156,6 +173,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="SoundEffectsEpicGJ2022_Button Press" ID="{79D22DDC-A204-4569-A5F5-77C2012EC891}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.0170523843930636"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0170523843930636"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SoundEffectsEpicGJ2022_Button Press.wav</AudioFile>
 							<MediaIDList>
@@ -169,6 +191,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Double Jump" ID="{829E8095-ADF6-4CF2-8AE8-07886BD1E063}" ShortID="638877360">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
@@ -192,6 +221,23 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Pick Up" ID="{E5AC963A-F5ED-414A-8876-0283E06C3778}" ShortID="649135375">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
@@ -202,6 +248,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="SoundEffectsEpicGJ2022_Pick Up" ID="{D6DC163C-BFB7-4874-AD66-8AB8E85B3138}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0207064667630058"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0645554552023122"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.229598175578035"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.387941744942197"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SoundEffectsEpicGJ2022_Pick Up.wav</AudioFile>
 							<MediaIDList>
@@ -215,6 +268,26 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Switch Dimentions" ID="{395E8B52-BD3E-4C23-929E-B3907EEF808D}" ShortID="1028421167">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{249F8804-E192-4E72-AD18-F6E69C7F41C6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>

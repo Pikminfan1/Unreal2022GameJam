@@ -3,21 +3,21 @@
 	<RootPaths>
 		<ProjectRoot>D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\</ProjectRoot>
 		<SourceFilesRoot>D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Projects\Unreal2022\Unreal2022GameJam\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<SoundBanksRoot>D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1327972334" GUID="{4F273FEE-3FEE-1FEE-EEEE-EEEEEEEEEEEE}" Language="SFX" Hash="809245501">
-			<ObjectPath>\SoundBanks\Default Work Unit\PlayerSounds</ObjectPath>
-			<ShortName>PlayerSounds</ShortName>
-			<Path>PlayerSounds.bnk</Path>
+		<SoundBank Id="577248597" GUID="{8B3F313E-6420-4FB8-8AD4-ED726F354AF0}" Language="SFX" Hash="1393090966">
+			<ObjectPath>\SoundBanks\Default Work Unit\PlayerSoundbank</ObjectPath>
+			<ShortName>PlayerSoundbank</ShortName>
+			<Path>PlayerSoundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1907633766" Name="Play_Button_Press" ObjectPath="\Events\Default Work Unit\Play_Button_Press" GUID="{B7E36B75-9012-46B3-B2F6-416C7D222AEE}" DurationType="OneShot" DurationMin="0.453907" DurationMax="0.453907">
 					<IncludedMemoryFiles>
 						<File Id="911543907" Language="SFX">
 							<ShortName>SoundEffectsEpicGJ2022_Button Press.wav</ShortName>
-							<Path>SFX\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem</Path>
+							<Path>SFX\SoundEffectsEpicGJ2022_Button Press_C49E2173.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -53,7 +53,7 @@
 					<IncludedMemoryFiles>
 						<File Id="666903468" Language="SFX">
 							<ShortName>SoundEffectsEpicGJ2022_Pick Up.wav</ShortName>
-							<Path>SFX\SoundEffectsEpicGJ2022_Pick Up_EF1A3CB4.wem</Path>
+							<Path>SFX\SoundEffectsEpicGJ2022_Pick Up_7BD80F61.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
