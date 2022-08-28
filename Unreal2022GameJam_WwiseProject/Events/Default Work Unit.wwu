@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_FootstepsSwitch" ID="{CA2EBF05-55CB-427C-9566-6A9590ACC40C}">
+					<ChildrenList>
+						<Action Name="" ID="{ED2FC0F7-A384-45C7-ACFA-DA79FA236A56}" ShortID="173083751">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepsSwitch" ID="{5904357D-4016-4AF6-BC2B-876D3C0D8BDB}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

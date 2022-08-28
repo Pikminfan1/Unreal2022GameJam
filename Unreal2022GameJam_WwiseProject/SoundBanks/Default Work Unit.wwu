@@ -6,6 +6,7 @@
 				<SoundBank Name="PlayerSoundbank" ID="{8B3F313E-6420-4FB8-8AD4-ED726F354AF0}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Switch_Dimentions" ID="{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FootstepsSwitch" ID="{CA2EBF05-55CB-427C-9566-6A9590ACC40C}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Double_Jump" ID="{FADC62DD-2328-42BB-88EA-C0310DF8364A}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footprints" ID="{084D2C43-7546-42FF-9B4C-FDCCE8A2D387}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pick_Up" ID="{DBA001EB-DB7A-4607-96A9-3D8F768122C0}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
