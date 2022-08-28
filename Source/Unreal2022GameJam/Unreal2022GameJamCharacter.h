@@ -99,5 +99,27 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+public:
+	UPROPERTY(BlueprintReadWrite, Category = "Jumps")
+		int32 MaxDoubleJumpCount;
+	UPROPERTY(BlueprintReadWrite, Category = "Jumps")
+		int32 CurrentDoubleJumpCount;
+public:
+
+	UFUNCTION(BlueprintCallable, Category = "Jumps")
+		int32 GetMaxJumpCount();
+	
+	UFUNCTION(BlueprintCallable, Category = "Jumps")
+		int32 SetMaxJumpCount(int32 NewMaxJump);
+	
+	UFUNCTION(BlueprintCallable, Category = "Jumps")
+		int32 GetCurrentDoubleJumpCount();
+
+	UFUNCTION(BlueprintCallable, Category = "Jumps")
+		int32 SetCurrentDoubleJumpCount(int32 NewJump);
+
+	UFUNCTION(BlueprintCallable, Category = "Jumps")
+		int32 IncrimentCurrentDoubleJumpCount();
+
 };
 

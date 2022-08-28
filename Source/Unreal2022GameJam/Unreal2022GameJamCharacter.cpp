@@ -35,6 +35,8 @@ AUnreal2022GameJamCharacter::AUnreal2022GameJamCharacter()
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 
+	MaxDoubleJumpCount = 2;
+	CurrentDoubleJumpCount = 0;
 }
 
 void AUnreal2022GameJamCharacter::BeginPlay()
@@ -146,4 +148,31 @@ bool AUnreal2022GameJamCharacter::EnableTouchscreenMovement(class UInputComponen
 	}
 	
 	return false;
+}
+
+int32 AUnreal2022GameJamCharacter::GetMaxJumpCount()
+{
+	return MaxDoubleJumpCount;
+}
+
+int32 AUnreal2022GameJamCharacter::SetMaxJumpCount(int32 NewMaxJump)
+{
+	MaxDoubleJumpCount = NewMaxJump;
+	return MaxDoubleJumpCount;
+}
+
+int32 AUnreal2022GameJamCharacter::GetCurrentDoubleJumpCount()
+{
+	return CurrentDoubleJumpCount;
+}
+
+int32 AUnreal2022GameJamCharacter::SetCurrentDoubleJumpCount(int32 NewJump)
+{
+	CurrentDoubleJumpCount = NewJump;
+	return CurrentDoubleJumpCount;
+}
+
+int32 AUnreal2022GameJamCharacter::IncrimentCurrentDoubleJumpCount()
+{
+	return CurrentDoubleJumpCount++;
 }
