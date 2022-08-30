@@ -13,7 +13,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Ice" ID="{2D86DA58-869F-4013-AF7A-0AB2B5D7DF4A}"/>
+						<CurrentSwitchRef Name="Default" ID="{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
