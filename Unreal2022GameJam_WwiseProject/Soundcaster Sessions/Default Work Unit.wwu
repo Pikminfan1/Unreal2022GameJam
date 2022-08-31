@@ -20,7 +20,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Hell" ID="{64DB26FB-3BA2-4A6A-B07F-A92B46DEB7FA}"/>
+						<CurrentStateRef Name="Heaven" ID="{74FEF175-5D37-4E69-94A9-1029BA69F2C6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Default" ID="{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}"/>

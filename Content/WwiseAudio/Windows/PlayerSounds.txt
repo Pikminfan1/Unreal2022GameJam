@@ -23,6 +23,7 @@ State	ID	Name	State Group			Notes
 	3632828376	Hell	Dimention			
 
 Effect plug-ins	ID	Name	Type				Notes
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
 	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

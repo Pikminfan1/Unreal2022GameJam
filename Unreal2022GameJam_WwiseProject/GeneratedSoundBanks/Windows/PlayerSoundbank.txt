@@ -23,6 +23,7 @@ State	ID	Name	State Group			Notes
 	3632828376	Hell	Dimention			
 
 Effect plug-ins	ID	Name	Type				Notes
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
 	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -34,6 +35,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	710010194	Stone footstep 1	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Footprints\Stone footstep 1		44752
 	810323651	Unreal2022Level_170bpm_4-4_Loop	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Unreal2022Level_170bpm_4-4_Loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\DimentionMusic\Heaven\Unreal2022Level_Heaven_170bpm_4-4_Loop\Unreal2022Level_170bpm_4-4_Loop		47706420
 	857310882	Double Jump	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Double Jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Double Jump		80980
-	911543907	Button Press	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\TestIceFootprints\Button Press		77704
+	911543907	Button Press	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press		77704
 	959243476	Stone footstep 3	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Footprints\Stone footstep 3		30172
 

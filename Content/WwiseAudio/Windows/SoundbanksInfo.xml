@@ -156,7 +156,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1327972334" GUID="{4F273FEE-3FEE-1FEE-EEEE-EEEEEEEEEEEE}" Language="SFX" Hash="3059066902">
+		<SoundBank Id="1327972334" GUID="{4F273FEE-3FEE-1FEE-EEEE-EEEEEEEEEEEE}" Language="SFX" Hash="655262853">
 			<ObjectPath>\SoundBanks\Default Work Unit\PlayerSounds</ObjectPath>
 			<ShortName>PlayerSounds</ShortName>
 			<Path>PlayerSounds.bnk</Path>
