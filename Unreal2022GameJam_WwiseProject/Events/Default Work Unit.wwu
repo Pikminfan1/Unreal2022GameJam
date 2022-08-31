@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DimentionMusic" ID="{5F5096D5-6729-432A-984B-C694CC5ABD0D}">
+					<ChildrenList>
+						<Action Name="" ID="{70502DE0-A9A3-497D-85E2-E5D2D41574FD}" ShortID="249891697">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DimentionMusic" ID="{9F297F6F-D304-462D-84CD-073306A4A6C3}" WorkUnitID="{D86F4806-C9BD-4A13-81A6-B182A5D97600}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

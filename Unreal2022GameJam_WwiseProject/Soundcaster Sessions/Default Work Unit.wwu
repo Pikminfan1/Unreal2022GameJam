@@ -9,9 +9,19 @@
 							<ObjectRef Name="Play_FootstepsSwitch" ID="{CA2EBF05-55CB-427C-9566-6A9590ACC40C}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Switch_Dimentions" ID="{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_DimentionMusic" ID="{5F5096D5-6729-432A-984B-C694CC5ABD0D}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Hell" ID="{64DB26FB-3BA2-4A6A-B07F-A92B46DEB7FA}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Default" ID="{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}"/>
 					</CurrentSwitchList>

@@ -1,6 +1,414 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D86F4806-C9BD-4A13-81A6-B182A5D97600}" SchemaVersion="103">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{D86F4806-C9BD-4A13-81A6-B182A5D97600}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D86F4806-C9BD-4A13-81A6-B182A5D97600}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="DimentionMusic" ID="{9F297F6F-D304-462D-84CD-073306A4A6C3}" ShortID="480411173">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="170"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Heaven" ID="{9BB78B73-F516-4E60-B1EB-E835C90C9F8F}" ShortID="20363809">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Unreal2022Level_Heaven_170bpm_4-4_Loop" ID="{00B4A5D4-A878-4F6D-9FBC-5B2AFE2B0E66}" ShortID="942781760">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="248470.604166667"/>
+										<Property Name="Tempo" Type="Real64" Value="170"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Unreal2022Level_170bpm_4-4_Loop" ID="{DA673E59-D79E-4E3B-8960-4762EC37CD72}" ShortID="891383389">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Unreal2022Level_170bpm_4-4_Loop" ID="{FBDB3B26-970C-4E59-83F6-AD8CA78DFEF6}">
+													<Language>SFX</Language>
+													<AudioFile>Unreal2022Level_170bpm_4-4_Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="810323651"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6873990F-A049-4E2A-9980-D99402DEFD00}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9EBA60A5-3203-4D2E-AB97-2B0CBDB24474}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Unreal2022Level_170bpm_4-4_Loop" ID="{6A45C25D-F9BB-4779-B488-0CC29A9E1DE4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="248470.604166667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Unreal2022Level_170bpm_4-4_Loop" ID="{FBDB3B26-970C-4E59-83F6-AD8CA78DFEF6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{231ED3EE-B183-44FE-AE59-EAACC3BDB964}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CACAF832-87A3-4DD3-8BA8-95174B244877}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="237176.470588235"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{24C26EDA-6E70-4D0F-A418-2571213DE627}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E0D8A2DB-7959-43F4-9C38-B03705E3793F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{074267C1-2F09-439F-81BA-488047144926}" ShortID="247909280">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{7F424606-D21A-4C3B-BBF7-0B3D323C3174}" ShortID="717772977">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Unreal2022Level_Heaven_170bpm_4-4_Loop" ID="{00B4A5D4-A878-4F6D-9FBC-5B2AFE2B0E66}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Hell" ID="{02813F16-4177-4B08-997E-5DE7138F370A}" ShortID="20857775">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="170"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Unreal2022Level_Hell_170bpm_4-4_Loop" ID="{14ECB46D-BF55-4301-B09D-2452EEA1DAEE}" ShortID="55925295">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="296849.072063387"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Unreal2022Level_Hell_170bpm_4-4_Loop" ID="{78B27861-9179-480E-B7C3-C0C9401F2CD1}" ShortID="746652123">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Unreal2022Level_Hell_170bpm_4-4_Loop" ID="{6519EA0F-EEF3-49D4-ABDC-0BE94B741129}">
+													<Language>SFX</Language>
+													<AudioFile>Unreal2022Level_Hell_170bpm_4-4_Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="419134388"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E0E03AA0-A4ED-4EE3-B98F-B9AA775CEBEB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D3FF5133-7B58-465E-A60E-B80EB344AAFB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Unreal2022Level_Hell_170bpm_4-4_Loop" ID="{3088E7D6-636C-47D9-9843-03750B05B82B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="237176.470588235"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Unreal2022Level_Hell_170bpm_4-4_Loop" ID="{6519EA0F-EEF3-49D4-ABDC-0BE94B741129}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{B17BEE03-4D04-44E8-86F3-ED8E5090AA39}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>237.17647</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{F53E6CEF-8092-4F39-BE31-85212481C5AE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>237.17647</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{0EBEFDD9-9261-492D-A532-8413D21D5124}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>237.17647</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{84B01062-8D24-4E34-A2C6-5C3180AD7C32}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1ECBB75D-26C6-47A6-AB9E-A708C98355DD}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="237176.479166667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3A68BC5A-47A3-42A5-B0D8-677E56990DD3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{406258B4-3242-4460-8845-1553BADEAFBE}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{9F699D1D-2092-4849-A9FA-B2E5DA372618}" ShortID="18722213">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1EE0454C-6512-4BC3-BB8E-DD87DA329600}" ShortID="861373567">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Unreal2022Level_Hell_170bpm_4-4_Loop" ID="{14ECB46D-BF55-4301-B09D-2452EEA1DAEE}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{9D9C569E-856E-49C8-8598-8320244C00F2}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{43E08D49-4E4F-4522-9FF0-0DC52A04D800}">
+									<PropertyList>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{D6997E7A-E97F-440E-8804-8DD89CCCE2C9}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{38318D49-49CA-4B12-B342-0D38FA1C276E}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="Dimention" ID="{8D9B6071-E4FC-439C-BDEA-E47FB5E474A8}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Heaven" ID="{74FEF175-5D37-4E69-94A9-1029BA69F2C6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Heaven" ID="{9BB78B73-F516-4E60-B1EB-E835C90C9F8F}" WorkUnitID="{D86F4806-C9BD-4A13-81A6-B182A5D97600}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hell" ID="{64DB26FB-3BA2-4A6A-B07F-A92B46DEB7FA}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Hell" ID="{02813F16-4177-4B08-997E-5DE7138F370A}" WorkUnitID="{D86F4806-C9BD-4A13-81A6-B182A5D97600}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{094563A5-9A83-4D65-BC16-CA3EEABBC16B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Heaven" ID="{9BB78B73-F516-4E60-B1EB-E835C90C9F8F}" WorkUnitID="{D86F4806-C9BD-4A13-81A6-B182A5D97600}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

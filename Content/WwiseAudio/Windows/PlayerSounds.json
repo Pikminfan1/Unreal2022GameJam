@@ -16,7 +16,7 @@
     "Id": "1327972334",
     "GUID": "{4F273FEE-3FEE-1FEE-EEEE-EEEEEEEEEEEE}",
     "Language": "SFX",
-    "Hash": "1225040069",
+    "Hash": "3059066902",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSounds",
     "ShortName": "PlayerSounds",
     "Path": "PlayerSounds.bnk",
@@ -35,6 +35,53 @@
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Button Press.wav",
         "Path": "SFX\\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4080564148",
+      "Name": "Play_DimentionMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_DimentionMusic",
+      "GUID": "{5F5096D5-6729-432A-984B-C694CC5ABD0D}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "419134388",
+        "Language": "SFX",
+        "ShortName": "Unreal2022Level_Hell_170bpm_4-4_Loop.wav",
+        "Path": "SFX\\Unreal2022Level_Hell_170bpm_4-4_Loop_D79FB2B7.wem"
+       },
+       {
+        "Id": "810323651",
+        "Language": "SFX",
+        "ShortName": "Unreal2022Level_170bpm_4-4_Loop.wav",
+        "Path": "SFX\\Unreal2022Level_170bpm_4-4_Loop_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{74FEF175-5D37-4E69-94A9-1029BA69F2C6}",
+        "Media": [
+         {
+          "Id": "810323651"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{64DB26FB-3BA2-4A6A-B07F-A92B46DEB7FA}",
+        "Media": [
+         {
+          "Id": "419134388"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{094563A5-9A83-4D65-BC16-CA3EEABBC16B}",
+        "Media": [
+         {
+          "Id": "810323651"
+         }
+        ]
        }
       ]
      },
@@ -130,6 +177,7 @@
         "Path": "SFX\\Stone footstep 3_10C4C929.wem"
        }
       ],
+      "DefaultSwitchValue": "{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}",
       "SwitchContainers": [
        {
         "SwitchValue": "{2D86DA58-869F-4013-AF7A-0AB2B5D7DF4A}",
@@ -189,6 +237,34 @@
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Switch Dimentions.wav",
         "Path": "SFX\\SoundEffectsEpicGJ2022_Switch Dimentions_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1368188190",
+      "Name": "Dimention",
+      "ObjectPath": "\\States\\Default Work Unit\\Dimention",
+      "GUID": "{8D9B6071-E4FC-439C-BDEA-E47FB5E474A8}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Dimention\\None",
+        "GUID": "{094563A5-9A83-4D65-BC16-CA3EEABBC16B}"
+       },
+       {
+        "Id": "3460057008",
+        "Name": "Heaven",
+        "ObjectPath": "\\States\\Default Work Unit\\Dimention\\Heaven",
+        "GUID": "{74FEF175-5D37-4E69-94A9-1029BA69F2C6}"
+       },
+       {
+        "Id": "3632828376",
+        "Name": "Hell",
+        "ObjectPath": "\\States\\Default Work Unit\\Dimention\\Hell",
+        "GUID": "{64DB26FB-3BA2-4A6A-B07F-A92B46DEB7FA}"
        }
       ]
      }

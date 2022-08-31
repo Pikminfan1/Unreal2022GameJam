@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1368188190	Dimention			\Default Work Unit\Dimention	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Dimention			
+	3460057008	Heaven	Dimention			
+	3632828376	Hell	Dimention			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

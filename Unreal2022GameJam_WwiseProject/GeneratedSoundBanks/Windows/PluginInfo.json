@@ -5,6 +5,12 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Compressor",
+    "ID": "7077891",
+    "DLL": "AkCompressor",
+    "StaticLib": "AkCompressorFX"
+   },
+   {
     "Name": "System",
     "ID": "11403271"
    },

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D96B8642-6F75-4BA7-9265-023DC0F5B9F8}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{D96B8642-6F75-4BA7-9265-023DC0F5B9F8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D96B8642-6F75-4BA7-9265-023DC0F5B9F8}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Dimention" ID="{8D9B6071-E4FC-439C-BDEA-E47FB5E474A8}">
+					<ChildrenList>
+						<State Name="None" ID="{094563A5-9A83-4D65-BC16-CA3EEABBC16B}"/>
+						<State Name="Heaven" ID="{74FEF175-5D37-4E69-94A9-1029BA69F2C6}"/>
+						<State Name="Hell" ID="{64DB26FB-3BA2-4A6A-B07F-A92B46DEB7FA}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
