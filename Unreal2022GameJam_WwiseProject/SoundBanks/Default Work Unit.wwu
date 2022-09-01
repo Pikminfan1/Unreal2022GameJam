@@ -6,12 +6,16 @@
 				<SoundBank Name="PlayerSoundbank" ID="{8B3F313E-6420-4FB8-8AD4-ED726F354AF0}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Switch_Dimentions" ID="{295C7A6C-CEB3-413B-9E85-B0210E4F56F4}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Turret_Shot" ID="{AD5DBFF9-AFAF-4174-B0AA-211C6978EE60}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FootstepsSwitch" ID="{CA2EBF05-55CB-427C-9566-6A9590ACC40C}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Double_Jump" ID="{FADC62DD-2328-42BB-88EA-C0310DF8364A}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footprints" ID="{084D2C43-7546-42FF-9B4C-FDCCE8A2D387}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_DimentionMusic" ID="{5F5096D5-6729-432A-984B-C694CC5ABD0D}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Death" ID="{3B25B3DA-879E-435C-9485-1830E04D5CFE}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pick_Up" ID="{DBA001EB-DB7A-4607-96A9-3D8F768122C0}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Button_Press" ID="{B7E36B75-9012-46B3-B2F6-416C7D222AEE}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bounce" ID="{0D9DF574-1366-4A37-B864-C21EF067AD34}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Win" ID="{F79988F4-8803-4F9E-A640-01D7AF16DB61}" WorkUnitID="{31E0F45D-91E0-48CD-B90C-27B50C212E2A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
