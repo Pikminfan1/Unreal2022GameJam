@@ -80,6 +80,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Bounce" ID="{0D9DF574-1366-4A37-B864-C21EF067AD34}">
+					<ChildrenList>
+						<Action Name="" ID="{9048418B-FAE3-41D1-8FA4-0CEBD7192CAD}" ShortID="28040630">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bounce" ID="{34BA8F33-1BDE-440E-81A0-7E9F101AB10C}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Death" ID="{3B25B3DA-879E-435C-9485-1830E04D5CFE}">
+					<ChildrenList>
+						<Action Name="" ID="{991E9334-0283-4919-9673-5F0772DD5E64}" ShortID="529958399">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Death" ID="{112C742A-CCBB-49DB-A3C8-B6AA53238C86}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Win" ID="{F79988F4-8803-4F9E-A640-01D7AF16DB61}">
+					<ChildrenList>
+						<Action Name="" ID="{B3E79149-E099-4714-95CB-7A8402EA8A79}" ShortID="823849504">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Win" ID="{C10DDE13-6915-4666-A557-D2F9B03339FE}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turret_Shot" ID="{AD5DBFF9-AFAF-4174-B0AA-211C6978EE60}">
+					<ChildrenList>
+						<Action Name="" ID="{C7F2D20E-DC60-4642-9631-2ED9B89605BD}" ShortID="48214445">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turret Shot" ID="{7DE44239-0FA4-41ED-A7E7-316D37E91656}" WorkUnitID="{4897ED52-D165-41D1-9679-64C88BE90506}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

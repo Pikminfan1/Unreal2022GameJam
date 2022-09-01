@@ -1,10 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
+	459323551	Play_Turret_Shot			\Default Work Unit\Play_Turret_Shot	
 	964566375	Play_Pick_Up			\Default Work Unit\Play_Pick_Up	
+	1835085974	Play_Player_Death			\Default Work Unit\Play_Player_Death	
 	1907633766	Play_Button_Press			\Default Work Unit\Play_Button_Press	
+	2001629402	Play_Player_Win			\Default Work Unit\Play_Player_Win	
 	2690827682	Play_Footprints			\Default Work Unit\Play_Footprints	
 	2695750376	Play_Double_Jump			\Default Work Unit\Play_Double_Jump	
 	2975023323	Play_FootstepsSwitch			\Default Work Unit\Play_FootstepsSwitch	
 	3139357677	Play_Switch_Dimentions			\Default Work Unit\Play_Switch_Dimentions	
+	3465618802	Play_Bounce			\Default Work Unit\Play_Bounce	
 	4080564148	Play_DimentionMusic			\Default Work Unit\Play_DimentionMusic	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -27,6 +31,8 @@ Effect plug-ins	ID	Name	Type				Notes
 	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	118557767	Turret Shot	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Turret Shot_AEB43253.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Turret Shot		44788
+	264801725	Bounce	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Bounce_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Bounce		91632
 	282601132	Switch Dimentions	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Switch Dimentions_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch Dimentions		80980
 	419134388	Unreal2022Level_Hell_170bpm_4-4_Loop	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Unreal2022Level_Hell_170bpm_4-4_Loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\DimentionMusic\Hell\Unreal2022Level_Hell_170bpm_4-4_Loop\Unreal2022Level_Hell_170bpm_4-4_Loop		45537948
 	666903468	Pick Up	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Pick Up_EF1A3CB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pick Up		30464
@@ -35,6 +41,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	710010194	Stone footstep 1	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Footprints\Stone footstep 1		44752
 	810323651	Unreal2022Level_170bpm_4-4_Loop	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Unreal2022Level_170bpm_4-4_Loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\DimentionMusic\Heaven\Unreal2022Level_Heaven_170bpm_4-4_Loop\Unreal2022Level_170bpm_4-4_Loop		47706420
 	857310882	Double Jump	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Double Jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Double Jump		80980
+	897275465	Player_Win	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Player_Win_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Player_Win		195568
 	911543907	Button Press	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\SoundEffectsEpicGJ2022_Button Press_7A68BEEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press		77704
+	955267722	Player_Death	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Player_Death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Player_Death		195568
 	959243476	Stone footstep 3	D:\Projects\Unreal2022\Unreal2022GameJam\Unreal2022GameJam_WwiseProject\.cache\Windows\SFX\Stone footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsSwitch\Footprints\Stone footstep 3		30172
 

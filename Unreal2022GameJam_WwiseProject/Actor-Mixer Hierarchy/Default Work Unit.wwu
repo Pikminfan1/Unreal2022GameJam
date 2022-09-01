@@ -409,10 +409,131 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<Sound Name="Bounce" ID="{34BA8F33-1BDE-440E-81A0-7E9F101AB10C}" ShortID="930349218">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bounce" ID="{FC660A90-9B36-4042-991C-B4D1C6DF56B6}">
+									<Language>SFX</Language>
+									<AudioFile>Bounce.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="264801725"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Bounce" ID="{FC660A90-9B36-4042-991C-B4D1C6DF56B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Player_Death" ID="{112C742A-CCBB-49DB-A3C8-B6AA53238C86}" ShortID="255820483">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Death" ID="{BA416AB0-939D-4EC7-B86B-90E0DEFF4E7A}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="955267722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Death" ID="{BA416AB0-939D-4EC7-B86B-90E0DEFF4E7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Player_Win" ID="{C10DDE13-6915-4666-A557-D2F9B03339FE}" ShortID="923060875">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Win" ID="{58643904-B88B-4962-89BB-DC8091BC1365}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Win.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="897275465"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Win" ID="{58643904-B88B-4962-89BB-DC8091BC1365}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Turret Shot" ID="{7DE44239-0FA4-41ED-A7E7-316D37E91656}" ShortID="713710097">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9405D86C-A761-4126-8820-C47059489FEB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E404D115-D55A-4C14-B0D6-9160DC2731AE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Turret Shot" ID="{9C0F048A-AAA8-4569-9A29-B9B3EBCD7D52}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.232944845857418"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.232944845857418"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Turret Shot.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="118557767"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Turret Shot" ID="{9C0F048A-AAA8-4569-9A29-B9B3EBCD7D52}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 					<GroupingInfo>
 						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Player_Win" ID="{C10DDE13-6915-4666-A557-D2F9B03339FE}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Player_Death" ID="{112C742A-CCBB-49DB-A3C8-B6AA53238C86}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Bounce" ID="{34BA8F33-1BDE-440E-81A0-7E9F101AB10C}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Turret Shot" ID="{7DE44239-0FA4-41ED-A7E7-316D37E91656}"/>
+							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="TestIceFootprints" ID="{F1186ED5-E311-421D-9096-4EAB654436FE}"/>
 							</GroupingBehavior>

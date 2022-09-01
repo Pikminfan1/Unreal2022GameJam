@@ -16,11 +16,28 @@
     "Id": "577248597",
     "GUID": "{8B3F313E-6420-4FB8-8AD4-ED726F354AF0}",
     "Language": "SFX",
-    "Hash": "3928038381",
+    "Hash": "1698843999",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSoundbank",
     "ShortName": "PlayerSoundbank",
     "Path": "PlayerSoundbank.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3465618802",
+      "Name": "Play_Bounce",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bounce",
+      "GUID": "{0D9DF574-1366-4A37-B864-C21EF067AD34}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.476917",
+      "DurationMax": "0.476917",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "264801725",
+        "Language": "SFX",
+        "ShortName": "Bounce.wav",
+        "Path": "SFX\\Bounce_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "1907633766",
       "Name": "Play_Button_Press",
@@ -176,34 +193,6 @@
         "ShortName": "Stone footstep 3.wav",
         "Path": "SFX\\Stone footstep 3_10C4C929.wem"
        }
-      ],
-      "DefaultSwitchValue": "{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}",
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{2D86DA58-869F-4013-AF7A-0AB2B5D7DF4A}",
-        "Media": [
-         {
-          "Id": "911543907"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{15E1A6E0-D51C-4C7E-862C-249ABB3B7D71}",
-        "Media": [
-         {
-          "Id": "670727069"
-         },
-         {
-          "Id": "699293783"
-         },
-         {
-          "Id": "710010194"
-         },
-         {
-          "Id": "959243476"
-         }
-        ]
-       }
       ]
      },
      {
@@ -224,6 +213,40 @@
       ]
      },
      {
+      "Id": "1835085974",
+      "Name": "Play_Player_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player_Death",
+      "GUID": "{3B25B3DA-879E-435C-9485-1830E04D5CFE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.108299",
+      "DurationMax": "1.108299",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "955267722",
+        "Language": "SFX",
+        "ShortName": "Player_Death.wav",
+        "Path": "SFX\\Player_Death_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2001629402",
+      "Name": "Play_Player_Win",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player_Win",
+      "GUID": "{F79988F4-8803-4F9E-A640-01D7AF16DB61}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.108299",
+      "DurationMax": "1.108299",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "897275465",
+        "Language": "SFX",
+        "ShortName": "Player_Win.wav",
+        "Path": "SFX\\Player_Win_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3139357677",
       "Name": "Play_Switch_Dimentions",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Switch_Dimentions",
@@ -237,6 +260,23 @@
         "Language": "SFX",
         "ShortName": "SoundEffectsEpicGJ2022_Switch Dimentions.wav",
         "Path": "SFX\\SoundEffectsEpicGJ2022_Switch Dimentions_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "459323551",
+      "Name": "Play_Turret_Shot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Turret_Shot",
+      "GUID": "{AD5DBFF9-AFAF-4174-B0AA-211C6978EE60}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.169543",
+      "DurationMax": "0.190306",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118557767",
+        "Language": "SFX",
+        "ShortName": "Turret Shot.wav",
+        "Path": "SFX\\Turret Shot_AEB43253.wem"
        }
       ]
      }
