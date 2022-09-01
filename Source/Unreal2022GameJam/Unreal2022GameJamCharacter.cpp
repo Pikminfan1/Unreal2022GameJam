@@ -20,6 +20,14 @@ AUnreal2022GameJamCharacter::AUnreal2022GameJamCharacter()
 	// set our turn rates for input
 	TurnRateGamepad = 45.f;
 
+	CameraParent = CreateDefaultSubobject<USceneComponent>(TEXT("CameraParent"));
+	CameraParent->SetupAttachment(GetCapsuleComponent());
+
+	AngelMesh->CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("AngelMesh"));
+	AngelMesh->SetupAttachment(CameraParent);
+
+	DevilMesh->CreateAbstractDefaultSubobject<USkeletalMeshComponent>(TEXT("DevilMesh"));
+	DevilMesh->SetupAttachment(CameraParent);
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());

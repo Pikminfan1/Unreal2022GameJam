@@ -37,6 +37,12 @@ protected:
 	virtual void BeginPlay();
 
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
+		USceneComponent* CameraParent;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
+		USkeletalMeshComponent* AngelMesh;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
+		USkeletalMeshComponent* DevilMesh;
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float TurnRateGamepad;
