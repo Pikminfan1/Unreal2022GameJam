@@ -23,14 +23,16 @@ AUnreal2022GameJamCharacter::AUnreal2022GameJamCharacter()
 	CameraParent = CreateDefaultSubobject<USceneComponent>(TEXT("CameraParent"));
 	CameraParent->SetupAttachment(GetCapsuleComponent());
 
-	AngelMesh->CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("AngelMesh"));
+	AngelMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("AngelMesh"));
 	AngelMesh->SetupAttachment(CameraParent);
 
-	DevilMesh->CreateAbstractDefaultSubobject<USkeletalMeshComponent>(TEXT("DevilMesh"));
+	DevilMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("DevilMesh"));
 	DevilMesh->SetupAttachment(CameraParent);
+
+
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
-	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
+	FirstPersonCameraComponent->SetupAttachment(CameraParent);
 	FirstPersonCameraComponent->SetRelativeLocation(FVector(-39.56f, 1.75f, 64.f)); // Position the camera
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
@@ -42,6 +44,8 @@ AUnreal2022GameJamCharacter::AUnreal2022GameJamCharacter()
 	Mesh1P->CastShadow = false;
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
+
+
 
 	MaxDoubleJumpCount = 2;
 	CurrentDoubleJumpCount = 0;
